@@ -2580,7 +2580,7 @@ At position i, tag T:
 6. State the final vector and conclusion
 
 **For bigram probability:**
-1. Write P(w₁,w₂,...) = P(w₁|<s>) × P(w₂|w₁) × ...
+1. Write `P(w₁,w₂,...) = P(w₁|<s>) × P(w₂|w₁) × ...`
 2. Look up each bigram count and the denominator unigram count
 3. Apply MLE formula: count(w_{i-1},w_i) / count(w_{i-1})
 4. Apply Laplace if asked: add 1 to numerator, add V to denominator
